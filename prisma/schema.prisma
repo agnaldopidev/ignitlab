@@ -14,6 +14,7 @@ model Notification{
   id String  @id
   recipientId String
   category String
+  contect String
   readAt DateTime?
   createdAt DateTime @default(now())
   
